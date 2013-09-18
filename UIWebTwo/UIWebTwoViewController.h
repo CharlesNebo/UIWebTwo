@@ -9,5 +9,15 @@
 #import <UIKit/UIKit.h>
 
 @interface UIWebTwoViewController : UIViewController
+{
+
+    
+    UITextField *webAddress;
+    UIButton *btnGo;
+    UIWebView *webPage;
+
+}
+
+-(void) openUrl;
 
 @end
